@@ -39,3 +39,27 @@
 # print([x for x in a if x%2==0])
 
 # Ex 8
+# pl1 = input("Enter Rock(r) or Paper(p) or Scissors(s) for player 1: ");
+# pl2 = input("Enter Rock(r) or Paper(p) or Scissors(s) for player 2: ");
+# print("Player 1 won" if (pl1=="r" and pl2=="s") or (pl1=="s" and pl2=='p') or (pl1=='p' and pl2=='s') else "Player 2 won")
+
+# Ex 9
+# import random
+# def getRandomNumber():
+#     return random.randint(1,9)
+#
+# count = 0
+# while True:
+#     rand = getRandomNumber()
+#     print("Random Number " + str(rand))
+#     inpStr = input("Enter a number: ")
+#     if (inpStr.lower()=="exit"):
+#         break
+#     else:
+#         inp = int(inpStr)
+#         print("Exact" if rand==inp else "Greater" if rand<inp else "Less")
+#     count+=1
+#
+# print("Total Guesses: " + str(count))
+
+# Ex 10
